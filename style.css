@@ -1,20 +1,48 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  gap: 0.5rem;
+}
+
 #source-text {
   margin: 15px 0;
-  width: 500px;
-  height: 100px;
+  min-height: 100px;
   border: 1px solid red;
   border-radius: 5px;
 }
 
 #output {
-  border: 1px solid black;
+  min-height: 100px;
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
 }
 
 #output-cont span {
   display: inline-block;
-  margin: 0 0.25rem;
 }
 
-span.keyword {
+span.purple {
   color: purple;
+}
+
+span.yellow {
+  color: #dcdcaa;
+}
+
+span.blue {
+  color: #9cdcfe;
+}
+
+span.aqua {
+  color: #8fcae9;
+}
+
+span.brown {
+  color: #b27e69;
+}
+
+span.lime {
+  color: #a8bf9c;
 }
